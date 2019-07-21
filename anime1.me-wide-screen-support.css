@@ -54,9 +54,10 @@
 }
 
 /* content */
+/*[[video-height]]*/
 embed, iframe, object {
-    width: calc(var(--height) * 1.777777777778);
-    height: var(--height);
+    width: 1280px;
+    height: 720px;
 }
 
 #tablepress-1_wrapper.dataTables_wrapper {
@@ -69,7 +70,25 @@ embed, iframe, object {
     width: 75%;
 }
 
-/*[[video-height]]*/
+
+/* userstyles.org options support
 embed, iframe, object {
-    --height: 720px;
+    width: 960px;
+    height: 540px;
 }
+
+embed, iframe, object {
+    width: 1280px;
+    height: 720px;
+}
+
+embed, iframe, object {
+    width: 1920px;
+    height: 1080px;
+}
+
+embed, iframe, object {
+    width: 2560px;
+    height: 1440px;
+}
+*/
